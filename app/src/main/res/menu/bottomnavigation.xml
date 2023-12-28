@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/item1"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Anasayfa">
+    </item>
+
+    <item
+        android:id="@+id/item2"
+        android:icon="@drawable/ic_baseline_text"
+        android:title="Kargo Bilgileri">
+    </item>
+
+    <item
+        android:id="@+id/item3"
+        android:icon="@drawable/ic_baseline_local_shipping_24"
+        android:title="Teslimat Bilgileri">
+    </item>
+
+    <item android:id="@id/item4"
+        android:title="Çıkış"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        >
+    </item>
+
+
+</menu>

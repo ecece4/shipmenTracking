@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/btn_bg"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="left"
+        android:text=" SHIPMENTRACKING"
+        android:textColor="#E6D433"
+        android:background="@color/color"
+        android:textStyle="bold"
+        android:textSize="35dp">
+    </TextView>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif"
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/tenor">
+
+    </pl.droidsonroids.gif.GifImageView>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="143dp"
+        android:layout_marginTop="50dp">
+
+        <TableRow
+            android:id="@+id/satir2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="Kargo Takip Numaranız:"
+                android:textColor="@color/color"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/satir3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/edit_kargo_num"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40dp"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/ic_baseline_search_24"
+                android:maxLines="9"
+                android:hint="9 haneli takip numaranızı girin">
+
+            </EditText>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn_sorgula"
+        android:layout_width="176dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn"
+        android:text="SORGULA"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#E7DCCB"
+        app:backgroundTint="@null">
+
+    </Button>
+
+   <TextView
+       android:id="@+id/txt1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+   </TextView>
+
+</LinearLayout>
